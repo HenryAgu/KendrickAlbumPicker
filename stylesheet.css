@@ -123,5 +123,6 @@ body{
     .album-name{
         position: relative;
         bottom: 100px;
+        padding-bottom: 10px;
     }
 }
