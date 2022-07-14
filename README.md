@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://kdot-album-picker.netlify.app/)
+- Live Site URL: [https://kdot-album-picker.netlify.app/]
 
 
 ### Built with
