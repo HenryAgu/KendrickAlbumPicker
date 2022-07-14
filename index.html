@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/k.ico" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <title>Kendrick Lamar's Album Picker</title>
+</head>
+<body>
+    <main>
+        <div class="header"><h1 class="welcome"></h1></div>
+        <div class="container">
+            <div class="album-photo" id="albumPhoto"><p id="album-title"></p></div>
+            <div class="album-name">
+                <h2>Pick An Album</h2>
+                <div class="buttons">
+                    <button id="goodkid" class="button">good kid, m.A.A.d city</button>
+                    <br>
+                    <button id="damn" class="button">DAMN</button>
+                    <br>
+                    <button id="morale" class="button">Mr. Morale & the Big Steppers</button>
+                    <br>
+                    <button id="TPAB" class="button">To Pimp a Butterfly</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="typed.js"></script>
+    <script>
+        let typed = new Typed('.welcome', {
+    // Waits 1000ms after typing "First"
+            strings: ["Kendrick Lamar's Album Picker."],
+            typeSpeed:80,
+            backSpeed:50,
+    });
+    </script>
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
